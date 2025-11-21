@@ -3,6 +3,8 @@ import Image from "next/image";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaLocationDot } from "react-icons/fa6";
+import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
+
 
 export default function FooterSection() {
   return (
@@ -17,7 +19,11 @@ export default function FooterSection() {
           className="rounded-lg"
         />
         <div>
-            bjbwh
+             <div className="flex items-center gap-4">
+            
+                      <FaFacebookF className="cursor-pointer hover:text-gray-200" size={16} />
+                      <FaLinkedinIn className="cursor-pointer hover:text-gray-200" size={16} />
+                    </div>
         </div>
       </div>
 

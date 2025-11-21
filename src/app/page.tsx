@@ -8,7 +8,6 @@ import UrbanCentersSection from "./components/UrbanCentersSection";
 import FundraiseCard from "./components/FundraiseCard"
 import Whatwedo from "./components/Whatwedo";
 import GetInTouchSection from "./components/GetInTouchSection";
-import FooterSection from "./components/Footer";
 
 export default function Home() {
   return (
@@ -22,7 +21,6 @@ export default function Home() {
      <FundraiseCard />
      <Whatwedo />
      <GetInTouchSection />
-     <FooterSection />
     </div>
   );
 }
