@@ -7,7 +7,7 @@ export default function WhatIsHeartDiseasePage() {
       {/* ============================
           HERO SECTION
       ============================= */}
-      <section className="bg-red-600 text-white py-20 px-6 text-center">
+      <section className="bg-blue-900 text-white py-20 px-6 text-center">
         <h1 className="text-4xl md:text-5xl font-extrabold">
           What Is Heart Disease?
         </h1>

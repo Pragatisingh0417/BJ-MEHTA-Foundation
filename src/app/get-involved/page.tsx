@@ -24,7 +24,7 @@ export default function GetInvolvedPage() {
     <div className="w-full">
 
       {/* ⭐ Banner */}
-      <section className="relative w-full h-[300px] bg-red-600 flex items-center justify-center text-white">
+      <section className="relative w-full h-[300px] bg-blue-900 flex items-center justify-center text-white">
         <h1 className="text-4xl font-bold tracking-wide">Get in Touch</h1>
       </section>
 

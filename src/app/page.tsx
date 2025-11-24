@@ -17,8 +17,9 @@ export default function Home() {
      <OurInspiration />
      <NewsletterBanner />
      <LatestNews />
-     <UrbanCentersSection />
      <FundraiseCard />
+     <UrbanCentersSection />
+     
      <Whatwedo />
      <GetInTouchSection />
     </div>
