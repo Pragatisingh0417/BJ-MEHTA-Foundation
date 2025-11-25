@@ -33,7 +33,7 @@ export default function Header() {
           <Link href="/latest-news">Our Projects</Link>
           <Link href="/get-involved">Contact Us</Link>
 
-          <Link href="/make-a-donation">
+          <Link href="/bj-mehta-foundation">
             <button className="bg-[#FF2D2D] text-white font-semibold px-6 py-2 rounded-full hover:bg-red-600 transition">
               CLICK HERE TO DONATE
             </button>

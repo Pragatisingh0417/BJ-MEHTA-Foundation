@@ -14,14 +14,17 @@ export default function TopHeader() {
 
         {/* Left Side */}
         <div className="flex flex-wrap items-center gap-6">
-          <div className="flex items-center gap-2">
+          {/* <div className="flex items-center gap-2">
             <FaPhoneAlt size={14} />
             <span>+237 682–084–962</span>
-          </div>
-
-          <div className="flex items-center gap-2">
+          </div> */}
+<div className="flex items-center gap-2">
             <MdEmail size={16} />
             <span>atul.mehta1@nhs.net</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <MdEmail size={16} />
+            <span>jayshreevyas@virginmedia.com</span>
           </div>
         </div>
 

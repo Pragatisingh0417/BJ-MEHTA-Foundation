@@ -24,9 +24,9 @@ export default function DonationBanner() {
         {/* LEFT: Heading */}
         <div className="text-left text-white max-w-xl md:max-w-2xl">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold leading-tight drop-shadow-xl">
-            Stronger Hearts,
+            Honouring A Life 
             <br />
-            Stronger Futures
+            Of Service
           </h1>
 
           {/* Red underline */}
@@ -63,7 +63,7 @@ export default function DonationBanner() {
           </p>
 
          <div className="mt-6 flex flex-col gap-4">
-  <Link href="/donate-with-mobile-money" className="w-full">
+  <Link href="/bj-mehta-foundation" className="w-full">
   <button className="w-full px-6 py-3 rounded-full bg-red-600 text-white font-semibold shadow-lg hover:bg-red-700 transition">
 Click here to donate us  </button>
   </Link>

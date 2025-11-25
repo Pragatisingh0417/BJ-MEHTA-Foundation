@@ -11,9 +11,9 @@ export default function MeetOurTeams() {
 
   return (
     <main className="w-full">
-      <section className="bg-blue-900 py-24 text-center text-white">
+      <section className="bg-black py-24 text-center text-white">
         <h1 className="text-5xl font-extrabold tracking-wide">
-          Board of Directors
+         Meet Our Teams
         </h1>
         <p className="mt-4 text-lg opacity-90">
           Meet the dedicated leaders of the BJ Mehta Foundation
