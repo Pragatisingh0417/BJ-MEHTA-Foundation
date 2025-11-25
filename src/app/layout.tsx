@@ -23,8 +23,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "MA Heart Foundation Website",
-  description: "MA Heart Foundation Website",
+  title: "BJ Mehta Foundation",
+  description: "BJ Mehta Foundation",
 };
 
 export default function RootLayout({

@@ -15,7 +15,7 @@ export default function AboutPage() {
       ====================================== */}
       <section className="relative w-full h-[550px] overflow-hidden">
         <Image
-          src="/CameroonOffice.png"
+          src="/bj-mehta-banner.jpg"
           alt="About Mercy Foundation"
           fill
           className="object-cover scale-110"

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function NewsletterBanner() {
   return (
-    <section className="w-full bg-[#0B72D9] py-10">
+    <section className="w-full bg-red-600 py-10">
       <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
         
         {/* TEXT */}
@@ -13,7 +13,7 @@ export default function NewsletterBanner() {
 
         {/* BUTTON */}
         <Link href="/get-involved">
-  <button className="mt-6 px-8 py-3 bg-red-600 text-white rounded-full font-semibold hover:bg-red-700 transition">
+  <button className="mt-6 px-8 py-3 bg-black text-white rounded-full font-semibold transition">
     Learn more
   </button>
 </Link>

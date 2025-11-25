@@ -9,7 +9,7 @@ export default function DonationBanner() {
 
       {/* FULL BACKGROUND IMAGE */}
       <Image
-        src="/heart-banner-image.png"
+        src="/bj-mehta-banner.jpg"
         alt="donation banner"
         fill
         priority
@@ -65,13 +65,12 @@ export default function DonationBanner() {
          <div className="mt-6 flex flex-col gap-4">
   <Link href="/donate-with-mobile-money" className="w-full">
   <button className="w-full px-6 py-3 rounded-full bg-red-600 text-white font-semibold shadow-lg hover:bg-red-700 transition">
-    Donate With Credit Card
-  </button>
+Click here to donate us  </button>
   </Link>
 
-  <Link href="/donate-with-mobile-money" className="w-full">
+  <Link href="/get-involved" className="w-full">
     <button className="w-full px-6 py-3 rounded-full bg-red-600 text-white font-semibold shadow-lg hover:bg-red-700 transition">
-      Donate With Mobile Money
+      OR Contact us
     </button>
   </Link>
 

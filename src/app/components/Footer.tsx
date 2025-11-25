@@ -8,125 +8,92 @@ import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 
 export default function FooterSection() {
   return (
-    <footer className="w-full bg-[#007BFF] text-white pt-14 pb-10 px-6 md:px-16">
-      {/* TOP: Logo + Social Icons */}
-      <div className="flex flex-col md:flex-row items-center justify-between mb-8 gap-6">
+    <footer className="w-full bg-black text-white pt-14 pb-10 px-6 md:px-16">
+
+      {/* TOP HEADER */}
+      <div className="flex flex-col md:flex-row items-center justify-between mb-10 gap-6">
         <Image
-          src="/heart-logo.png"
+          src="/logo (1).jpg"
           alt="Logo"
           width={140}
           height={140}
-          className="rounded-lg"
+          className="rounded-lg shadow-lg"
         />
 
-       {/* SOCIALS */}
-<div className="flex items-center gap-4">
-  <Link
-    href="https://www.facebook.com/people/MA-Heart-Foundation/61574807995896/?sk=about"
-    target="_blank"
-  >
-    <div className="w-10 h-10 rounded-full flex items-center justify-center bg-white/10 hover:bg-white/20 transition">
-      <FaFacebookF className="cursor-pointer hover:text-gray-200 text-xl md:text-base" />
-    </div>
-  </Link>
+        {/* SOCIAL ICONS */}
+        <div className="flex items-center gap-4">
+          <Link
+            href="https://www.facebook.com/people/MA-Heart-Foundation/61574807995896/?sk=about"
+            target="_blank"
+          >
+            <div className="w-10 h-10 rounded-full flex items-center justify-center bg-red-600 hover:bg-red-700 transition shadow-lg">
+              <FaFacebookF className="text-white" />
+            </div>
+          </Link>
 
-  <Link
-    href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2F106902013%2Fadmin%2Fdashboard%2F"
-    target="_blank"
-  >
-    <div className="w-10 h-10 rounded-full flex items-center justify-center bg-white/10 hover:bg-white/20 transition">
-      <FaLinkedinIn className="cursor-pointer hover:text-gray-200 text-xl md:text-base" />
-    </div>
-  </Link>
-</div>
-
+          <Link
+            href="https://www.linkedin.com/company/106902013/"
+            target="_blank"
+          >
+            <div className="w-10 h-10 rounded-full flex items-center justify-center bg-red-600 hover:bg-red-700 transition shadow-lg">
+              <FaLinkedinIn className="text-white" />
+            </div>
+          </Link>
+        </div>
       </div>
 
       {/* DIVIDER */}
-      <div className="w-full border-t-2 border-white mb-10"></div>
+      <div className="w-full border-t border-red-600 opacity-60 mb-10"></div>
 
       {/* MAIN GRID */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-        
-        {/* CONTACT US */}
+
+        {/* CONTACT */}
         <div>
-          <h3 className="text-2xl font-semibold mb-4">Contact Us</h3>
-          <ul className="space-y-4 text-lg">
-            <li className="flex items-center gap-3">
-              <FaPhoneAlt className="text-xl" />
-              <span>1-438-795-3481</span>
-            </li>
-
-            <li className="flex items-center gap-3 break-all">
-              <MdEmail className="text-xl" />
-              <span>info@maheartfoundation.org</span>
-            </li>
-
-            <li className="flex items-start gap-3">
-              <FaLocationDot className="text-2xl mt-1" />
-              <span>
-                255 D’Anjou Blvd, Suite 257F,
-                <br />
-                Châteauguay, QC J6J 2R4
-              </span>
-            </li>
-          </ul>
+          <h3 className="text-2xl font-semibold mb-4 text-red-500">B J Mehta Foundation</h3>
+          <p>The Foundation is inspired by the late Mr B J Mehta – a teacher and a philanthropist. He had a unique worldview and spent the majority of his life focussing on how he could improve the lives of those around him who were less fortunate than himself. His family would like to keep this legacy going.</p>
+         
         </div>
 
-        {/* ABOUT */}
+        {/* MAIN LINKS */}
         <div>
-          <h3 className="text-2xl font-semibold mb-4">About</h3>
+          <h3 className="text-2xl font-semibold mb-4 text-red-500">Explore</h3>
           <ul className="space-y-3 text-lg">
-            <li className="hover:text-gray-200 cursor-pointer">
-              <Link href="/fundraise">Fundraise</Link>
+            <li className="hover:text-red-400 transition">
+              <Link href="/">Home</Link>
             </li>
-
-            <li className="hover:text-gray-200 cursor-pointer">
-              <Link href="/make-a-donation">Make A Donation</Link>
+            <li className="hover:text-red-400 transition">
+              <Link href="/about">About</Link>
             </li>
-
-            <li className="hover:text-gray-200 cursor-pointer">
-              <Link href="/what-we-do">What We Do</Link>
+            <li className="hover:text-red-400 transition">
+              <Link href="/meet-our-teams">Our Teams</Link>
             </li>
-
-            <li className="hover:text-gray-200 cursor-pointer">
-              <Link href="/volunteer">Volunteer</Link>
+            <li className="hover:text-red-400 transition">
+              <Link href="/projects">Projects</Link>
             </li>
-
-            <li className="hover:text-gray-200 cursor-pointer">
-              <Link href="/get-involved">Contact Us</Link>
+            <li className="hover:text-red-400 transition">
+              <Link href="/contact">Contact Us</Link>
             </li>
           </ul>
         </div>
 
         {/* QUICK LINKS */}
         <div>
-          <h3 className="text-2xl font-semibold mb-4">Quick Links</h3>
+          <h3 className="text-2xl font-semibold mb-4 text-red-500">Quick Links</h3>
           <ul className="space-y-3 text-lg">
-            <li className="hover:text-gray-200 cursor-pointer">
-              <Link href="/tips-for-a-healthy-heart">Tips For A Healthy Heart</Link>
-            </li>
-
-            <li className="hover:text-gray-200 cursor-pointer">
+            
+            <li className="hover:text-red-400 transition">
               <Link href="/make-a-donation">Donate</Link>
             </li>
-
-            <li className="hover:text-gray-200 cursor-pointer">
-              <Link href="/our-medical-advisory-team">Our Medical Advisory</Link>
-            </li>
-
             
-
-            <li className="hover:text-gray-200 cursor-pointer">
-              <Link href="/jobs">Jobs</Link>
-            </li>
+          
           </ul>
         </div>
       </div>
 
       {/* COPYRIGHT */}
-      <div className="text-center mt-12 text-sm opacity-90">
-        © {new Date().getFullYear()} MA Heart Foundation. All rights reserved.
+      <div className="text-center mt-12 text-sm opacity-80">
+        © {new Date().getFullYear()} BJ Mehta Foundation. All rights reserved.
       </div>
     </footer>
   );

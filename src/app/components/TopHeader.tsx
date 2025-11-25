@@ -9,7 +9,7 @@ import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 export default function TopHeader() {
   return (
     // Hides this entire top bar on mobile
-    <div className="hidden md:block w-full bg-[#0A75CE] text-white">
+    <div className="hidden md:block w-full bg-black text-white">
       <div className="max-w-7xl mx-auto flex justify-between items-center py-2 px-4 text-sm">
 
         {/* Left Side */}
@@ -21,7 +21,7 @@ export default function TopHeader() {
 
           <div className="flex items-center gap-2">
             <MdEmail size={16} />
-            <span>info@maheartfoundation.org</span>
+            <span>atul.mehta1@nhs.net</span>
           </div>
         </div>
 

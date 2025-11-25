@@ -44,7 +44,12 @@ export default function MeetOurTeams() {
 
         <div className="mt-20 bg-gray-50 p-10 rounded-3xl shadow-md border">
           <p className="text-gray-800 leading-8 text-lg">
-           Mr Mehta's youngest son Atul and his wife Kokila are the driving force behind the foundation. Atul is a Professor of Haematology at University College London and Kokila is a General Practitioner. They are assisted in their work by a close family friend, Jayshree Vyas, who works in the financial sector in London and is a trustee of Swamiji's charities. Our spiritual leader is Swami Satyamitranandgiriji of Bharat Mata Mandir Haridwar. Mr Mehta was greatly inspired by him and his teachings which promote values of charity, equality and compassion.
+            Mr Mehta's youngest son Atul and his wife Kokila are the driving
+            force behind the foundation. Atul is a Professor of Haematology at
+            University College London and Kokila is a General Practitioner. They
+            are assisted in their work by a close family friend, Jayshree Vyas,
+            who works in the financial sector in London and is a trustee of
+            Swamiji's charities.
             <br /><br />
             Our spiritual leader is Swami Satyamitranandgiriji of Bharat Mata
             Mandir Haridwar...

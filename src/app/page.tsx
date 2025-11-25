@@ -8,19 +8,17 @@ import UrbanCentersSection from "./components/UrbanCentersSection";
 import FundraiseCard from "./components/FundraiseCard"
 import Whatwedo from "./components/Whatwedo";
 import GetInTouchSection from "./components/GetInTouchSection";
+import MeetOurTeamSection from "./components/MeetOurTeamSection";
 
 export default function Home() {
   return (
     <div className="">
      <DonationBanner />
+
      <WordFromMercy />
-     <OurInspiration />
+     <MeetOurTeamSection />
      <NewsletterBanner />
-     <LatestNews />
-     <UrbanCentersSection />
      
-     <Whatwedo />
-     <GetInTouchSection />
     </div>
   );
 }
