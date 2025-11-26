@@ -30,7 +30,7 @@ export default function Header() {
           <Link href="/">Home</Link>
           <Link href="/about">About Us</Link>
           <Link href="/meet-our-teams">Our Teams</Link>
-          <Link href="/latest-news">Our Projects</Link>
+          <Link href="/our-projects">Our Projects</Link>
           <Link href="/get-involved">Contact Us</Link>
 
           <Link href="/bj-mehta-foundation">
@@ -63,47 +63,39 @@ export default function Header() {
         <Link href="/" onClick={() => setMobileMenu(false)} className="block text-lg">
           Home
         </Link>
+   <Link href="/about" className="block text-lg">
+         About us
+        </Link>
+        <Link href="/meet-our-teams" className="block text-lg">
+         Our Teams
+        </Link>
 
-        {/* ABOUT US MOBILE */}
-        <details>
-          <summary className="text-lg cursor-pointer">About Us</summary>
-          <div className="ml-4 mt-2 space-y-2 text-base">
-            <Link href="/word-from-mercy">Word From Mercy</Link>
-            <Link href="/board-of-directors">Board of Directors</Link>
-            <Link href="/our-medical-advisory-team">Medical Advisory Board</Link>
-            <Link href="/what-we-do">What We Do</Link>
-          </div>
-        </details>
+        <Link href="/our-projects" className="block text-lg">
+          Our Projects
 
-        {/* HEART HEALTH MOBILE */}
-        <details>
-          <summary className="text-lg cursor-pointer">Heart Health</summary>
-          <div className="ml-4 mt-2 space-y-2 text-base">
-            <Link href="/what-is-heart-disease">What is Heart Disease?</Link>
-            <Link href="/heart-disease-facts-and-statistics">Facts & Statistics</Link>
-            <Link href="/tips-for-a-healthy-heart">Healthy Heart Tips</Link>
-          </div>
-        </details>
-
-        <Link href="/latest-news" className="block text-lg">
-          Latest News
         </Link>
 
         <Link href="/get-involved" className="block text-lg">
-          Get Involved
+          Contact Us
+
         </Link>
 
-        <Link href="/make-a-donation">
-          <button className="w-full bg-[#FF2D2D] text-white font-semibold px-6 py-2 rounded-full hover:bg-red-600 transition">
-            DONATE NOW
-          </button>
-        </Link>
+        <div className="w-full flex flex-col md:flex-row items-center gap-4">
 
-        <Link href="/get-involved">
-          <button className="w-full bg-gray-900 text-white font-semibold px-6 py-2 rounded-full hover:bg-black transition">
-            CONTACT US
-          </button>
-        </Link>
+  <Link href="/bj-mehta-foundation" className="w-full md:w-auto">
+    <button className="w-full bg-[#FF2D2D] text-white font-semibold px-6 py-2 rounded-full hover:bg-red-600 transition">
+      CLICK HERE TO DONATE
+    </button>
+  </Link>
+
+  <Link href="/get-involved" className="w-full md:w-auto">
+    <button className="w-full bg-gray-900 text-white font-semibold px-6 py-2 rounded-full hover:bg-black transition">
+      CONTACT US
+    </button>
+  </Link>
+
+</div>
+
       </div>
     </header>
   );

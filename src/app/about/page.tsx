@@ -5,6 +5,7 @@ import { ChevronRight } from "lucide-react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import WordFromMercy from "../components/WordFromMercy";
+import AboutBjMehta from "../about-bj-mehta/page";
 
 
 export default function AboutPage() {
@@ -39,8 +40,7 @@ export default function AboutPage() {
 Dedicated to continuing Mr. B. J. Mehta’s lifelong mission of helping others.          </p>
         </motion.div>
       </section>
-<WordFromMercy />
-      
+<AboutBjMehta />      
      
 
   

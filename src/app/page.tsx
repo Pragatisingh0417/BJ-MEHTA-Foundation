@@ -9,13 +9,14 @@ import FundraiseCard from "./components/FundraiseCard"
 import Whatwedo from "./components/Whatwedo";
 import GetInTouchSection from "./components/GetInTouchSection";
 import MeetOurTeamSection from "./components/MeetOurTeamSection";
+import AboutBjMehta from "./about-bj-mehta/page";
 
 export default function Home() {
   return (
     <div className="">
      <DonationBanner />
+     <AboutBjMehta />
 
-     <WordFromMercy />
      <MeetOurTeamSection />
      <NewsletterBanner />
      
