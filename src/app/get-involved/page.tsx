@@ -78,7 +78,7 @@ export default function GetInvolvedPage() {
             <Phone className="text-red-600 w-6 h-6" />
             <div>
               <p className="font-semibold text-gray-700">Phone Number</p>
-              <p className="text-gray-600">1-438-795-3481 / +237 682-084-962</p>
+              <p className="text-gray-600">+44 -00-00-000</p>
             </div>
           </div>
 
@@ -87,12 +87,14 @@ export default function GetInvolvedPage() {
             <Mail className="text-red-600 w-6 h-6" />
             <div>
               <p className="font-semibold text-gray-700">Email</p>
-              <p className="text-gray-600">info@maheartfoundation.org</p>
+              <p className="text-gray-600">jayshreevyas@virginmedia.com</p>
+                            <p className="text-gray-600">atul.mehta1@nhs.net</p>
+
             </div>
           </div>
 
           {/* Address */}
-          <div className="flex gap-4 items-start mb-6">
+          {/* <div className="flex gap-4 items-start mb-6">
             <MapPin className="text-red-600 w-6 h-6" />
             <div>
               <p className="font-semibold text-gray-700">Address</p>
@@ -101,10 +103,10 @@ export default function GetInvolvedPage() {
                 <br /> Monte Centre Entre CNPS, Yaounde
               </p>
             </div>
-          </div>
+          </div> */}
 
           {/* Business Hours */}
-          <div className="flex gap-4 items-start">
+          {/* <div className="flex gap-4 items-start">
             <Clock className="text-red-600 w-6 h-6" />
             <div>
               <p className="font-semibold text-gray-700">Business Hours</p>
@@ -112,7 +114,7 @@ export default function GetInvolvedPage() {
               <p className="text-gray-600">Saturday: 10am – 3pm</p>
               <p className="text-gray-600">Sunday: Closed</p>
             </div>
-          </div>
+          </div> */}
         </div>
 
         {/* RIGHT FORM */}
