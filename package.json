@@ -2,13 +2,15 @@
   "name": "heart-foundation",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "create-admin": "ts-node --transpile-only scripts/create-admin.ts",
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
-  },
+ "scripts": {
+  "create-admin": "ts-node --transpile-only scripts/create-admin.ts",
+  "postinstall": "prisma generate",
+  "dev": "next dev",
+  "build": "prisma generate && next build",
+  "start": "next start",
+  "lint": "eslint"
+}
+,
   "dependencies": {
     "@heroicons/react": "^2.2.0",
     "@prisma/client": "^5.22.0",
