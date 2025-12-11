@@ -31,13 +31,19 @@ export default function Header() {
           <Link href="/about">About Us</Link>
           <Link href="/meet-our-teams">Our Teams</Link>
           <Link href="/our-projects">Our Projects</Link>
+          <Link href="/our-donors">Our Donors</Link>
           <Link href="/get-involved">Contact Us</Link>
 
-          <Link href="/bj-mehta-foundation">
-            <button className="bg-[#FF2D2D] text-white font-semibold px-6 py-2 rounded-full hover:bg-red-600 transition">
-              CLICK HERE TO DONATE
-            </button>
-          </Link>
+         <Link 
+  href="https://www.totalgiving.co.uk/donate/b-j-mehta-foundation" 
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <button className="bg-[#FF2D2D] text-white font-semibold px-6 py-2 rounded-full hover:bg-red-600 transition">
+    CLICK HERE TO DONATE
+  </button>
+</Link>
+
 
           <Link href="/get-involved">
             <button className="bg-gray-900 text-white font-semibold px-6 py-2 rounded-full hover:bg-black transition">
@@ -82,7 +88,11 @@ export default function Header() {
 
         <div className="w-full flex flex-col md:flex-row items-center gap-4">
 
-  <Link href="/bj-mehta-foundation" className="w-full md:w-auto">
+<Link 
+  href="https://www.totalgiving.co.uk/donate/b-j-mehta-foundation" 
+  target="_blank"
+  rel="noopener noreferrer"
+>
     <button className="w-full bg-[#FF2D2D] text-white font-semibold px-6 py-2 rounded-full hover:bg-red-600 transition">
       CLICK HERE TO DONATE
     </button>
